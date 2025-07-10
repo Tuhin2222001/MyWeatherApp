@@ -1,98 +1,95 @@
-🌤️ Weather App using React.js
 
-Git link : 
-A sleek, beginner-friendly weather application built with **React** that fetches real-time weather data from the **OpenWeatherMap API**. The user can search any city and get details like temperature, humidity, and wind speed along with an appropriate weather icon.
+# 🌤️ Weather App using React.js
 
-🔧 Technologies Used: 
+GitHub Link: 
 
-* ⚛️ React.js (with Hooks)
-* 📡 Fetch API
-* 🎯 useState, useEffect, useRef
-* 🎨 CSS Flexbox
-* 🌐 OpenWeatherMap API
+This is a simple weather app I made using **React.js**. It takes a city name from the user and shows the current temperature, humidity, and wind speed using the **OpenWeatherMap API**. It also changes the weather icon based on the data.
 
-🖼️ Demo
+## 🔧 Tools and Technologies
 
-![Weather App Screenshot](./screenshot.png) 
+- React.js with hooks (`useState`, `useEffect`, `useRef`)
+- Fetch API for getting weather data
+- Tailwind CSS (for styling)
+- OpenWeatherMap API
 
-🚀 Features
+## 🖼️ Screenshot
 
-✅ Search weather by city name
-✅ Displays temperature, humidity, and wind speed
-✅ Dynamic weather icons based on API response
-✅ Error handling (for blank/invalid cities)
-✅ Loading indicator during data fetch
-✅ Auto-fetch default weather for Kolkata on load
+![Weather App Screenshot](./screenshot.png)
 
- 🧠 React Hooks Overview
+## 🚀 What This App Does
 
-| Hook        | Purpose                                                 |
-| ----------- | ------------------------------------------------------- |
-| `useRef`    | Captures the input field value without re-rendering     |
-| `useState`  | Stores weather data, errors, and loading status         |
-| `useEffect` | Automatically fetches weather for default city on mount |
+- You can search the weather by entering a city name
+- It shows:
+  - Temperature (in °C)
+  - Humidity (in %)
+  - Wind speed (in km/h)
+- It shows different weather icons depending on the weather
+- If you search something wrong or blank, it shows an error
+- On first load, it shows weather info for Kolkata
 
+## 🧠 Hooks I Used
 
-🗂️ File Structure
+| Hook        | Why I used it                              |
+|-------------|---------------------------------------------|
+| `useRef`    | To take city name input without re-render   |
+| `useState`  | To manage weather data and error/loading    |
+| `useEffect` | To load default weather when app opens      |
 
-/src
-  ├── assets/           // All weather icons and images
-  ├── Weather.jsx       // Main weather component
-  ├── Weather.css       // Styling file
-  └── App.jsx           // App entry point (imports Weather)
+## 🗂️ File Structure (Main Files)
 
-
- 🛠️ Setup Instructions
-
-1. **Clone the repo**
-
-```bash
-git clone https://github.com/your-username/weather-app.git
-cd weather-app
 ```
 
-2. **Install dependencies**
+src/
+├── assets/        # icons
+├── Weather.jsx    # main logic
+├── Weather.css    # styles
+└── App.jsx        # main file
+
+````
+
+## 🛠️ How to Run This App
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/Tuhin2222001/MyWeatherApp.git
+cd MyWeatherApp
+````
+
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. **Add your OpenWeatherMap API key**
+3. Create a `.env` file and add your API key:
 
-Create a `.env` file at the root of your project:
-
-```env
-VITE_APP_ID=your_openweather_api_key
+```
+VITE_APP_ID=your_api_key_here
 ```
 
-4. **Start the app**
+4. Start the app:
 
 ```bash
 npm run dev
 ```
 
----
+## 🌐 API Used
 
-🌍 API Reference
-
-* **OpenWeatherMap API**
-  [https://openweathermap.org/api](https://openweathermap.org/api)
-
-  * Sign up for a free API key
-  * Use the `Current Weather Data` endpoint
+* [OpenWeatherMap API](https://openweathermap.org/api)
 
 ---
 
-### 🙋‍♂️ What I Learned
+## ✨ What I Learned
 
-* Fetching real-time API data with React
-* Managing user input using `useRef`
-* Handling UI state and rendering conditions
-* Displaying dynamic images based on API response
-* Creating a fully functional UI with CSS and React
+* How to call APIs in React
+* How `useRef` works with input fields
+* How to show different things based on state
+* A bit of CSS and React styling
 
 ---
 
+Thanks for checking it out!
 
-
+```
 
