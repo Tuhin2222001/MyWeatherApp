@@ -1,8 +1,6 @@
 
 # 🌤️ Weather App using React.js
 
-GitHub Link: 
-
 This is a simple weather app I made using **React.js**. It takes a city name from the user and shows the current temperature, humidity, and wind speed using the **OpenWeatherMap API**. It also changes the weather icon based on the data.
 
 ## 🔧 Tools and Technologies
