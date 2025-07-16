@@ -11,8 +11,8 @@ Tools and Technologies Used
 
 Live Links
 
-Live Demo: [https://tuhin2222001.github.io/MyWeatherApp/](https://tuhin2222001.github.io/MyWeatherApp/)
-GitHub Repository: [https://github.com/Tuhin2222001/MyWeatherApp](https://github.com/Tuhin2222001/MyWeatherApp)
+Live Demo: (https://tuhin2222001.github.io/MyWeatherApp/)
+GitHub Repository: (https://github.com/Tuhin2222001/MyWeatherApp)
 
 Features
 
